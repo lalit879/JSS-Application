@@ -142,7 +142,7 @@
         android:fontFamily="@font/roboto_bold"
         android:text="SIGN IN"
         android:textColor="#07635D"
-        android:textSize="18sp"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.63"
