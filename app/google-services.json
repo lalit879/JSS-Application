@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "684818942677",
+    "firebase_url": "https://jss-application-652d9-default-rtdb.firebaseio.com",
+    "project_id": "jss-application-652d9",
+    "storage_bucket": "jss-application-652d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684818942677:android:e27f0a792f50883606b05c",
+        "android_client_info": {
+          "package_name": "com.example.jssapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARlS9SQOlaMnWLQY1AK2USkO8uEZGzZuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

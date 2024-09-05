@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_classroom"
+            android:icon="@drawable/classroom_logo"
+            android:title="@string/classroom"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_noticeboard"
+            android:icon="@drawable/noticeboard_logo"
+            android:title="@string/n_board"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_attendence"
+            android:icon="@drawable/attendence1_logo"
+            android:title="@string/attendence"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/assignment_logo"
+            android:title="@string/assignments"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_fcontactlist"
+            android:icon="@drawable/faculties_contact_logo"
+            android:title="@string/faculties_contact_list"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+    <item android:title="UpComing Features"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_events"
+                android:icon="@drawable/coming_soon"
+                android:title="Events" />
+            <item
+                android:id="@+id/nav_socities"
+                android:icon="@drawable/coming_soon"
+                android:title="Socities" />
+        </menu>
+    </item>
+</menu>

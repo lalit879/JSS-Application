@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_classroom">
+
+    <fragment
+        android:id="@+id/nav_classroom"
+        android:name="com.example.jssapplication.ui.classroom.HomeFragment"
+        android:label="@string/classroom"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_noticeboard"
+        android:name="com.example.jssapplication.ui.noticeBoard.GalleryFragment"
+        android:label="@string/n_board"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_attendence"
+        android:name="com.example.jssapplication.ui.attendence.SlideshowFragment"
+        android:label="@string/attendence"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_assignment"
+        android:name="com.example.jssapplication.ui.Assignment.Assignment"
+        android:label="@string/assignment"
+        tools:layout="@layout/fragment_assignment" />
+    <fragment
+        android:id="@+id/nav_fcontactlist"
+        android:name="com.example.jssapplication.ui.FacultiesContactList.FacultiesContactList"
+        android:label="Faculties Contact List"
+        tools:layout="@layout/fragment_faculties_contact_list" />
+</navigation>
